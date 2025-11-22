@@ -2,13 +2,7 @@
 import add_0 as ad0
 
 if __name__ == "__main__":
-  a = 1
-  b = 2
-  result =ad0.add(a,b)
-  print("Result: {}".format(result))
-
-
-
-
-
-
+    a = 1
+    b = 2
+    result = ad0.add(a, b)
+    print("Result: {}".format(result))
