@@ -3,12 +3,10 @@
 
 
 class Rectangle:
-    """Rectangle class with private width 
-    and height attributes."""
+    """Rectangle class with private width and height attributes."""
 
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle instance with 
-        optional width and height."""
+        """Initialize a new Rectangle instance with optional width and height."""
         self.width = width
         self.height = height
 
@@ -39,4 +37,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
