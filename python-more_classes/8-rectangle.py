@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Define a Rectangle class with width, height, print_symbol, and comparison."""
+"""Define a Rectangle class with width, 
+height, print_symbol, and comparison."""
+
 
 class Rectangle:
     """Represent a rectangle."""
