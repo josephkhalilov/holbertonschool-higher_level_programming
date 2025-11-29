@@ -1,3 +1,7 @@
+ #!/usr/bin/python3
+"""Raise an exception for unimplemented area."""
+
+
 class BaseGeometry:
     """Base geometry class."""
 
