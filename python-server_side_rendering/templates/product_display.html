@@ -7,12 +7,10 @@
 
 <h1>Product Data</h1>
 
-<!-- Error message -->
 {% if error %}
-    <p style="color:red; font-size:18px;">{{ error }}</p>
+<p style="color:red; font-size:18px;">{{ error }}</p>
 {% endif %}
 
-<!-- Products table -->
 {% if products %}
 <table border="1" cellpadding="8">
     <tr>
@@ -22,11 +20,11 @@
     </tr>
 
     {% for product in products %}
-        <tr>
-            <td>{{ product.name }}</td>
-            <td>{{ product.category }}</td>
-            <td>{{ "%.2f"|format(product.price) }}</td>
-        </tr>
+    <tr>
+        <td>{{ product.name }}</td>
+        <td>{{ product.category }}</td>
+        <td>{{ "%.2f"|format(product.price) }}</td>
+    </tr>
     {% endfor %}
 </table>
 {% endif %}
